@@ -28,15 +28,13 @@ public class InstantCreditCheck {
     public static double getSalary() {
         System.out.println("Enter your salary:");
 
-        double salary = scanner.nextDouble();
-        return salary;
+        return scanner.nextDouble();
     }
 
     public static int getCreditScore() {
         System.out.println("Enter your credit score:");
-        int creditScore = scanner.nextInt();
 
-        return creditScore;
+        return scanner.nextInt();
     }
 
     public static boolean isUserQualified(int creditScore, double salary) {
