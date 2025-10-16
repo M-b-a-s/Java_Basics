@@ -7,7 +7,7 @@ public class AreaCalculator {
 
     }
 
-    public Rectangle getRoom() {
+    public static Rectangle getRoom() {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter the length of your room:");
@@ -17,5 +17,6 @@ public class AreaCalculator {
         double width = scanner.nextDouble();
 
         scanner.close();
+        return null;
     }
 }
